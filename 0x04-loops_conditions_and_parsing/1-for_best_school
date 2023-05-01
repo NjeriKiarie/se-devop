@@ -1,4 +1,4 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
 #displays Best School 10 times using the for loop
 
 for _ in $(seq 1 10);
