@@ -3,4 +3,4 @@
 #Cannot use ps
 
 
-pgrep -1 "bash"
+pgrep -l "bash"
