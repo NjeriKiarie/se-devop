@@ -11,4 +11,6 @@ sudo apt-get install -y nginx
 sudo mkdir /etc/nginx/html
 sudo touch /etc/nginx/html/index.html
 echo "Hello World!" > /etc/nginx/html/index.html
+sed -i "/listen \[::]:80 default_server;/a\;" > /etc/nginx/sites-available/default
+
 sudo service nginx restart
